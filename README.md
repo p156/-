@@ -144,3 +144,4 @@ T_y: Y軸方向の移動量 \\
 T_z: Z軸方向の移動量
 ```
 
+![せん断](https://user-images.githubusercontent.com/38420559/199863531-b6c50612-2f88-4f24-b19a-358311ff3075.png)
