@@ -48,24 +48,51 @@ A_c-B_c & A_d-B_d \\
 \end{matrix}\right)
 ```
 
-積は形が違くても計算できます。
+積は形が違くても行数と列数が同じであれば計算できます。
 + 積
 ```math
 \left(\begin{matrix} 
-A_a & A_b \\ 
-A_c & A_d \\ 
+A_1 & A_2 \\ 
+A_3 & A_4 \\ 
 \end{matrix}\right)
 \left(\begin{matrix} 
-B_a & B_b \\ 
-B_c & B_d \\ 
+B_1 & B_2 \\ 
+B_3 & B_4 \\ 
 \end{matrix}\right)
  = 
 \left(\begin{matrix} 
-A_aB_a + A_bB_c & A_aA_b + A_bB_d \\ 
-A_cB_a + A_dB_c & A_cA_b + A_dB_d \\ 
+A_1B_1 + A_2B_3 & A_1B_2 + A_2B_4 \\ 
+A_3B_1 + A_4B_3 & A_3B_2 + A_4B_4 \\ 
 \end{matrix}\right)
 ```
-## ３D計算
+
+```math
+\left(\begin{matrix} 
+A_1 & A_2 & A_3 & A_4\\ 
+A_5 & A_6 & A_7 & A_8\\ 
+A_9 & A_a & A_b & A_c \\ 
+A_d & A_e & A_f & A_{10} \\ 
+\end{matrix}\right)
+\left(\begin{matrix} 
+B_1 \\
+B_2 \\ 
+B_3 \\
+B_4 \\ 
+\end{matrix}\right)
+ = 
+\left(\begin{matrix} 
+A_1B_1 + A_2B_2 + A_3B_3 + A_4B_4 \\
+A_5B_1 + A_6B_2 + A_7B_3 + A_8B_4 \\
+A_9B_1 + A_aB_2 + A_bB_3 + A_cB_4 \\
+A_dB_1 + A_eB_2 + A_fB_3 + A_{10}B_4 \\
+\end{matrix}\right)
+```
+
++ 商
+複雑なので使う際に自分で調べて～
+[逆行列](https://manabitimes.jp/math/1153)
+
+## 3D計算
 
 ### 回転
 X軸まわりの回転：
@@ -151,3 +178,4 @@ H<sub>zy</sub>: YZ平面でのZ軸方向の係数
 
 [アフィン変換の説明](!https://pdwslmr.netlify.app/posts/3d-prog/affine-transformation/)
 
+a
