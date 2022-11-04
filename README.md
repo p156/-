@@ -3,12 +3,12 @@
 
 <img width="151" alt="行列" src="https://user-images.githubusercontent.com/38420559/199785189-dcbae3d0-0f79-4371-b971-617de1a8cba1.png">
 
-XYZの行があり、Mの行で移動量を指し示します。
+XYZの行があり、Mの行で移動量を指し示す
 
 
 <img width="151" alt="行列" src="https://user-images.githubusercontent.com/38420559/199781909-7e47a849-c86a-4cdd-a39d-f8c49d9eeac6.png">
 
-一番下の列は1の帳尻合わせなので主に０です。
+一番下の列は1の帳尻合わせなので主に０
 
 ## 行列四則演算
 和と差は形が同じではないといけない
@@ -89,7 +89,7 @@ A_dB_1 + A_eB_2 + A_fB_3 + A_{10}B_4 \\
 ```
 
 + 商
-複雑なので使う際に自分で調べて～
+複雑なので理解してから後日書く
 [逆行列](https://manabitimes.jp/math/1153)
 
 ## 3D計算
@@ -166,11 +166,11 @@ H_{xz} & H_{yz} & 1 & 0 \\
 0 & 0 & 0 & 1 \\ 
 \end{matrix}\right)
 ```
->H<sub>xy</sub>​: XY平面でのX軸方向の係数
+>H<sub>xy</sub>: XY平面でのX軸方向の係数
 H<sub>yx</sub>: XY平面でのY軸方向の係数
 H<sub>xz</sub>: XZ平面でのX軸方向の係数
-H<sub>zx</sub>​: XZ平面でのZ軸方向の係数
-H<sub>yz</sub>​: YZ平面でのY軸方向の係数
+H<sub>zx</sub>: XZ平面でのZ軸方向の係数
+H<sub>yz</sub>: YZ平面でのY軸方向の係数
 H<sub>zy</sub>: YZ平面でのZ軸方向の係数
 
 
