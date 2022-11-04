@@ -99,7 +99,7 @@ sinΘ & cosΘ & 0 & 0 \\
 0 & 0 & 0 & 1 \\ 
 \end{matrix}\right)
 ```
->Θ:回転角度
+>$$ Θ:回転角度 $$
 
 ### 拡大縮小
 ```math
@@ -110,7 +110,9 @@ S_x & 0 & 0 & 0 \\
 0 & 0 & 0 & 1 \\ 
 \end{matrix}\right)
 ```
->$$ S_x: X軸方向の倍率 \\S_y: Y軸方向の倍率 \\S_z: Z軸方向の倍率$$
+>$$ S_x: X軸方向の倍率 $$
+>$$ S_y: Y軸方向の倍率 $$
+>$$ S_z: Z軸方向の倍率 $$
 
 
 ### 平行移動
@@ -122,26 +124,26 @@ S_x & 0 & 0 & 0 \\
 0 & 0 & 0 & 1 \\ 
 \end{matrix}\right)
 ```
+>$$ T_x: X軸方向の移動量 $$
+>$$ T_y: Y軸方向の移動量 $$
+>$$ T_z: Z軸方向の移動量 $$
+
+### せん断
+> せん断とは、、、
+<img width="320" alt="せん断" src="https://user-images.githubusercontent.com/38420559/199863531-b6c50612-2f88-4f24-b19a-358311ff3075.png">
+画像のように四角形の画像を平行四辺形へ変形させること
+
+```math
+\left(\begin{matrix} 
+1 & H_yx & H_zx & 0 \\ 
+H_xy & 1 & H_zy & 0 \\ 
+H_xz & H_yz & 1 & 0 \\ 
+0 & 0 & 0 & 1 \\ 
+\end{matrix}\right)
+```
 >$$T_x: X軸方向の移動量 \\
 T_y: Y軸方向の移動量 \\
 T_z: Z軸方向の移動量
 $$
 
-### せん断
-> せん断とは、、、
 
-```math
-\left(\begin{matrix} 
-1 & 0 & 0 & T_x \\ 
-0 & 1 & 0 & T_y \\ 
-0 & 0 & 1 & T_z \\ 
-0 & 0 & 0 & 1 \\ 
-\end{matrix}\right)
-```
-```math
-T_x: X軸方向の移動量 \\
-T_y: Y軸方向の移動量 \\
-T_z: Z軸方向の移動量
-```
-
-![せん断](https://user-images.githubusercontent.com/38420559/199863531-b6c50612-2f88-4f24-b19a-358311ff3075.png)
