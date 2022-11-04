@@ -166,12 +166,12 @@ H_{xz} & H_{yz} & 1 & 0 \\
 0 & 0 & 0 & 1 \\ 
 \end{matrix}\right)
 ```
->H<sub>xy</sub>: XY平面でのX軸方向の係数
-H<sub>yx</sub>: XY平面でのY軸方向の係数
-H<sub>xz</sub>: XZ平面でのX軸方向の係数
-H<sub>zx</sub>: XZ平面でのZ軸方向の係数
-H<sub>yz</sub>: YZ平面でのY軸方向の係数
-H<sub>zy</sub>: YZ平面でのZ軸方向の係数
+>H<sub>xy</sub>: XY平面でのX軸方向の係数  
+H<sub>yx</sub>: XY平面でのY軸方向の係数  
+H<sub>xz</sub>: XZ平面でのX軸方向の係数  
+H<sub>zx</sub>: XZ平面でのZ軸方向の係数  
+H<sub>yz</sub>: YZ平面でのY軸方向の係数  
+H<sub>zy</sub>: YZ平面でのZ軸方向の係数  
 
 
 自分は特に使うことがないので詳しくは下記のサイトへゴー
