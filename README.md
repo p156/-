@@ -176,6 +176,6 @@ H<sub>zy</sub>: YZ平面でのZ軸方向の係数
 
 自分は特に使うことがないので詳しくは下記のサイトへゴー
 
-[アフィン変換の説明](!https://pdwslmr.netlify.app/posts/3d-prog/affine-transformation/)
+[アフィン変換の説明](https://pdwslmr.netlify.app/posts/3d-prog/affine-transformation/)
 
 a
