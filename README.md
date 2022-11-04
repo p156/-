@@ -97,7 +97,7 @@ sinΘ & cosΘ & 0 & 0 \\
 0 & 0 & 0 & 1 \\ 
 \end{matrix}\right)
 ```
->$$ Θ:回転角度 $$
+> Θ:回転角度
 
 ### 拡大縮小
 ```math
@@ -108,9 +108,9 @@ S_x & 0 & 0 & 0 \\
 0 & 0 & 0 & 1 \\ 
 \end{matrix}\right)
 ```
-> S_x: X軸方向の倍率  
-> S_y: Y軸方向の倍率  
-> S_z: Z軸方向の倍率  
+> S<sub>x</sub>: X軸方向の倍率  
+> S<sub>y</sub>: Y軸方向の倍率  
+> S<sub>z</sub>: Z軸方向の倍率  
 
 
 ### 平行移動
@@ -122,9 +122,9 @@ S_x & 0 & 0 & 0 \\
 0 & 0 & 0 & 1 \\ 
 \end{matrix}\right)
 ```
->$$ T_x: X軸方向の移動量 $$\\ 
-$$ T_y: Y軸方向の移動量$$  <br>
->$$ T_z: Z軸方向の移動量 $$ <br>
+>T<sub>x</sub>: X軸方向の移動量  
+T<sub>y</sub>: Y軸方向の移動量
+T<sub>z</sub>: Z軸方向の移動量
 
 ### せん断
 > せん断とは、、、
@@ -133,15 +133,21 @@ $$ T_y: Y軸方向の移動量$$  <br>
 
 ```math
 \left(\begin{matrix} 
-1 & H_yx & H_zx & 0 \\ 
-H_xy & 1 & H_zy & 0 \\ 
-H_xz & H_yz & 1 & 0 \\ 
+1 & H_{yx} & H_{zx} & 0 \\ 
+H_{xy} & 1 & H_{zy} & 0 \\ 
+H_{xz} & H_{yz} & 1 & 0 \\ 
 0 & 0 & 0 & 1 \\ 
 \end{matrix}\right)
 ```
-> T<sub>x</sub>: X軸方向の移動量  T_y\\
-T_y: Y軸方向の移動量 \\
-T_z: Z軸方向の移動量
-$$
+>H<sub>xy</sub>​: XY平面でのX軸方向の係数
+H<sub>yx</sub>: XY平面でのY軸方向の係数
+H<sub>xz</sub>: XZ平面でのX軸方向の係数
+H<sub>zx</sub>​: XZ平面でのZ軸方向の係数
+H<sub>yz</sub>​: YZ平面でのY軸方向の係数
+H<sub>zy</sub>: YZ平面でのZ軸方向の係数
 
+
+自分は特に使うことがないので詳しくは下記のサイトへゴー
+
+[アフィン変換の説明](!https://pdwslmr.netlify.app/posts/3d-prog/affine-transformation/)
 
