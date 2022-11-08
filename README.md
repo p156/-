@@ -106,8 +106,8 @@ X軸まわりの回転：
 ```math
 \left(\begin{matrix} 
 1 & 0 & 0 & 0 \\ 
-0 & cosΘ & -sinΘ & 0 \\ 
-0 & sinΘ & cosΘ & 0 \\ 
+0 & cos\theta & -sin\theta & 0 \\ 
+0 & sin\theta & cos\theta & 0 \\ 
 0 & 0 & 0 & 1 \\ 
 \end{matrix}\right)
 ```
@@ -115,9 +115,9 @@ X軸まわりの回転：
 Y軸まわりの回転：
 ```math
 \left(\begin{matrix} 
-cosΘ & 0 & sinΘ & 0 \\ 
+cos\theta & 0 & sin\theta & 0 \\ 
 0 & 1 & 0 & 0 \\ 
--sinΘ & 0 & cosΘ & 0 \\ 
+-sin\theta & 0 & cos\theta & 0 \\ 
 0 & 0 & 0 & 1 \\ 
 \end{matrix}\right)
 ```
@@ -125,13 +125,13 @@ cosΘ & 0 & sinΘ & 0 \\
 Z軸まわりの回転：
 ```math
 \left(\begin{matrix} 
-cosΘ & -sinΘ & 0 & 0 \\ 
-sinΘ & cosΘ & 0 & 0 \\ 
+cos\theta & -sin\theta & 0 & 0 \\ 
+sin\theta & cos\theta & 0 & 0 \\ 
 0 & 0 & 1 & 0 \\ 
 0 & 0 & 0 & 1 \\ 
 \end{matrix}\right)
 ```
-> Θ:回転角度
+> $\theta$:回転角度
 
 ### 拡大縮小
 ```math
