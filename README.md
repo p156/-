@@ -87,8 +87,8 @@ A_9B_1 + A_aB_2 + A_bB_3 + A_cB_4 \\
 A_dB_1 + A_eB_2 + A_fB_3 + A_{10}B_4 \\
 \end{matrix}\right)
 ```
--- 詳しい計算解説動画
-https://user-images.githubusercontent.com/38420559/200462249-ce751f6b-d25a-48d3-a71d-cb6684d012f0.mp4  
+-- 詳しい計算解説動画  
++ https://user-images.githubusercontent.com/38420559/200462249-ce751f6b-d25a-48d3-a71d-cb6684d012f0.mp4 +  
 [行列の積(掛け算)とは何か？わかりやすく解説](https://www.headboost.jp/what-is-matrix-multiplication/)
 
 
